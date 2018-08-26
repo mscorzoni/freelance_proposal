@@ -6,7 +6,7 @@ class CreateProposals < ActiveRecord::Migration[5.2]
       t.string :tools
       t.decimal :estimated_hours
       t.decimal :hourly_rate
-      t.integer :weeks_to_compete
+      t.integer :weeks_to_complete
       t.string :client_email
 
       t.timestamps
